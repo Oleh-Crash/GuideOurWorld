@@ -24,8 +24,13 @@ body{
      font-size: 3,5rem;
 
 }
+.topNubex {
+	position: fixed;
+	right: 45px;
+	bottom: 45px;
+   }
 
-/*photo with menu*/
+/*photo in menu*/
 .dubaiphotomir
 {
 display: none;

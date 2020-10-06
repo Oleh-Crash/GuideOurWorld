@@ -4,64 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Tour</title>
-        <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
     </head>
     <body class ="bacground-image">
         <header>
         <nav class="header-nav">
             <div class="logo">World tour</div>
-            <div class="logook">Your little world trawel guide</div>
-            <div class="menu-items">
-                <a href="#" class="dubaiphotom">Dubai</a>
-                <div class="dubaiphotomir"><img src="dubaiemirates.jpg"></div>
-                <a href="#" class="londonphotom">London</a>
-                <div class="londonphotomir"><img src="englondon.jpg"></div>
-                <a href="#" class="berlinphotom">Berlin</a>
-                <div class="berlinphotomir"><img src="bigberlin.jpg"></div>
-                <a href="#" class="warszawaphotom">Warszawa</a>
-                <div class="warszawaphotomir"><img src="warszaw.jpg"></div>
-                <a>Short for Guig</a>
-            </div>
-        </nav>
-        </header>
-        <section class = "shortguide">
+                <div class="logook">Your little world trawel guide</div>
+               <article>
+                    <div>
+                    <a href="#" title="go back to the top of the page" class="topNubex">Up</a>
+                   </div>  
+               </article> 
+                
+                    <div class="menu-items">
+                        <a href="#" class="dubaiphotom">Dubai</a>
+                            <div class="dubaiphotomir"><img src="dubaiemirates.jpg"></div>
+                        <a href="#" class="londonphotom">London</a>
+                            <div class="londonphotomir"><img src="englondon.jpg"></div>
+                        <a href="#" class="berlinphotom">Berlin</a>
+                            <div class="berlinphotomir"><img src="bigberlin.jpg"></div>
+                        <a href="#" class="warszawaphotom">Warszawa</a>
+                            <div class="warszawaphotomir"><img src="warszaw.jpg"></div>
+                        <a>Short for Guig</a>
+                    </div>
+                </nav>
+     </header>
+                        <main>
+                            <div id="carouselPhotoWorld" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselPhotoWorld" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselPhotoWorld" data-slide-to="1"></li>
+                                    <li data-target="#carouselPhotoWorld" data-slide-to="2"></li>
+                                </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                        <img src="img/naturewo.jpg" class="d-block w-100" alt="in desk latars travel the world">
+                                </div>
+                            <div class="carousel-item">
+                                    <img src="img/traw.jpg" class="d-block w-100" alt="pictures with lagoohn image">
+                            </div>
+                            <div class="carousel-item">
+                                    <img src="img/natureroad.jpg" class="d-block w-100" alt="road in desert">
+                            </div>
+                                <a class="carousel-control-prev" href="#carouselPhotoWorld" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselPhotoWorld" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <section>
+                            <article class = "container">
+                            <h2>Guides</h2>
+                            <div class="row row-cols-1 row-cols-md-2">
+                                <div class="col mb-4">
+                                  <div class="card">
+                                    <img src="img/trawelberlin.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Berlin Guide</h5>
+                                      <p class="card-text">This is a guide from Berlin.Please fill out the form below for more information. </p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col mb-4">
+                                  <div class="card">
+                                    <img src="img/dubaitraw.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Dubai Guide</h5>
+                                      <p class="card-text">This is a guide from Dubai.Please fill out the form below for more information.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col mb-4">
+                                  <div class="card">
+                                    <img src="img/tarwelwarszaw.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Warszaw Guide</h5>
+                                      <p class="card-text">This is a guide from Warszaw.Please fill out the form below for more information.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col mb-4">
+                                  <div class="card">
+                                    <img src="img/trawellondon.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">London Guide</h5>
+                                      <p class="card-text">This is a guide from London.Please fill out the form below for more information.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </article>
+                    </section>            
+                </main>
+             <section class = "shortguide">
             <div>
             <h2 id="shortguids">Short guids</h2>
             <div class ="shortguidelist">
                 <article class ="dubai-list">
                     <h3>Dubai</h3>
                     <p>Dubai is mostly used as a stopover destination for travelers flying in and out on Emirates.
-                            While Dubai can easily be a stopover city where you hit the big sites in a couple of days, there’s 
-                            a surprising amount of things to do here for those looking to spend more time.
-                            I loved my time in Dubai more than I thought I would! It’s a city 
-                            trapped between the old and the new.</p>  
+                        While Dubai can easily be a stopover city where you hit the big sites in a couple of days, there’s a surprising 
+                        amount of things to do here for those looking to spend more time. I loved my time in Dubai more than I thought I
+                         would! It’s a city trapped between the old and the new. A place in a conservative culture with old world customs 
+                         while at the same time a Middle-Eastern Vegas where anything goes (so long as it’s behind closed doors). 
+                         I was surprised at how much there was to do in this city – and how even in a week I barely scratched the surface.
+                          Dubai is a fascinating, multi-cultural city that deserves a lot more than stopover and 
+                       I hope you use this guide to help plan a trip that won’t break your budget!</p>  
                     </div>      
                 </article>
                 <article class= "berlin-list">
                     <h3>Berlin</h3>
                             <p>Berlin is Germany’s capital and the largest city in the country.
-                            Berlin has become very popular with students and young artists, writers, and creatives who have become the city’s new immigrants.
-                            While I dislike the “industrial” look of the city, the art, history, and nightlife cannot be beat. 
-                            Berlin is an old city with a young heart and one of the most fun, coolest, diverse. and eclectic cities in Europe.
-                            There’s a constant sense of motion here.</p>
+                                Berlin has become very popular with students and young artists, writers, and creatives who have become the city’s new immigrants.
+                                While I dislike the “industrial” look of the city, the art, history, and nightlife cannot be beat. 
+                                Berlin is an old city with a young heart and one of the most fun, coolest, diverse. and eclectic cities in Europe.
+                                There’s a constant sense of motion here.
+                                I didn’t like my first visit to Berlin but the city has really grown on me. 
+                                This is a city where “things are happening” and it’s probably the most vibrant city on the continent.
+                                This travel guide to Berlin will help point the way by giving you tips on what to see, costs, suggested budgets, 
+                                ways to save money, and everything else you need to plan a great trip!</p>
                 </article>
                 <article class="london-list">
                     <h3>London</h3>
-                            <p>Berlin is Germany’s capital and the largest city in the country.
-                            Berlin has become very popular with students and young artists, writers, and creatives who have become the city’s new immigrants.
-                            While I dislike the “industrial” look of the city, the art, history, and nightlife cannot be beat. 
-                            Berlin is an old city with a young heart and one of the most fun, coolest, diverse. and eclectic cities in Europe.
-                            There’s a constant sense of motion here.</p>
+                            <p>London is a common stop on most backpacking trips, European vacations, or two-week holidays.
+                                Everyone wants to come to London! People are drawn to it by images of pubs, museums, history, attractions, theater, and diverse culture.
+                                I mean it’s London. It’s a big name. How can you not go, right?</p>
+                                <p>I love visiting London. I’ve been visiting since 2008 and, with every subsequent visit, the city has grown on me. The more I go, the more wonder I see. There’s always something new to do here.
+                                The only problem with London is that it’s very, very expensive; it can eat away at your budget if you aren’t careful.
+                                Luckily, there are tons of free or cheap things to do in London that can fill your time.</p>
                 </article>
                 <article class = "warszaw-list">
                     <h3>Warszawa</h3>
-                            <p>Berlin is Germany’s capital and the largest city in the country.
-                            Berlin has become very popular with students and young artists, writers, and creatives who have become the city’s new immigrants.
-                            While I dislike the “industrial” look of the city, the art, history, and nightlife cannot be beat. 
-                            Berlin is an old city with a young heart and one of the most fun, coolest, diverse. and eclectic cities in Europe.
-                            There’s a constant sense of motion here.</p>
-                </article>
-            </div>
-        </section>
+                            <p>Warsaw is a bustling, revitalized city that is casting off the long shadow of Communism. 
+                                I loved visiting this city. Stroll down the boulevards, explore the wealth of Chopin music, admire traditional art pieces, and soak up this modern city. 
+                                All around you see these grim Communist buildings giving way to a city filled with optimism, history, public gardens, and modernity.
+                                I thought the city had more charm, fewer tourists, and a much more visible cross-section of Polish history.
+                                This travel guide to the city of Warsaw can help you plan your epic trip there by giving you all the tips and tricks you need to know!</p>
+                    </article>
+                </div>
+            </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="   crossorigin="anonymous"></script>        
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
     </body>
+    <div>
+        <form action="https://formspree.io/mbjprlyk" method="post" name="commentform" id="commentform">
+                <p><input type="text" name="author" id="author" value="" size="15" />
+                    <small> Name</small></p>
+                <p><input type="text" name="email" id="email" value="" size="15" />
+                    <small> Mail</small></p>
+                <p><textarea name="comment" id="comment" cols="30" rows="4"></textarea>
+                    <small>Leave your review</small></p>
+                <p> <input name="submit" type="submit" id="submit" value="Go"/> </p>
+        </form>
+    </div>
 </html>
