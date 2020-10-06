@@ -107,7 +107,7 @@ display: block;
 }
 
 .bacground-image {
-    background-image: url(../worldgo.jpg);
+    background-image: url(../img/worldgo.jpg);
     background-attachment: fixed;
     background-size: cover;
     min-height: 400px
