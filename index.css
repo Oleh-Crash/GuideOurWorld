@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Ranchers&display=swap');
+
+:root {
+    --main-color: black;
+    font-family: 'Ranchers', cursive;
+        
+}
+
+body{
+    max-width: 980px;
+    margin: auto;
+}
+
+.header-nav .logo {
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 3rem;
+
+}
+
+.header-nav .logook{
+    text-align: center;
+     font-family: 'Krona One', sans-serif;
+     font-size: 3,5rem;
+
+}
+
+/*photo with menu*/
+.dubaiphotomir
+{
+display: none;
+}
+
+a.dubaiphotom:hover+div
+{
+display: block;
+}
+
+.londonphotomir
+{
+display: none;
+}
+
+a.londonphotom:hover+div
+{
+display: block;
+}
+
+.berlinphotomir
+{
+display: none;
+}
+
+a.berlinphotom:hover+div
+{
+display: block;
+}
+
+.warszawaphotomir
+{
+display: none;
+}
+
+a.warszawaphotom:hover+div
+{
+display: block;
+}
+
+.header-nav .menu-items img {
+    width: 100%; 
+}
+
+.header-nav .menu-items{
+    justify-content: space-around;
+    flex: 1;
+    font-size: 25pt;
+    position: right;
+    
+}
+
+.header-nav .menu-items a {
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding: 25px;
+     border: none
+    
+}
+
+.header-nav .menu-items a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media(min-width: 769px){
+    .header-nav {
+        display: flex;
+        align-items:flex-start;
+        
+    }
+}
+
+.bacground-image {
+    background-image: url(../worldgo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 400px
+}
+
+.dubai-list img {   
+    width: 100%;
+}
+
+.berlin-list img{
+    width: 100%;
+}
+
+.london-list img{
+    width: 100%;
+}
+
+.warszaw-list img{
+    width: 100%;
+}
+
+.shortguide {
+    text-align: center;
+
+}
